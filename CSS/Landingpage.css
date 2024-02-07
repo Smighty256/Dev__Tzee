@@ -1,0 +1,1076 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* 
+=============
+=============
+
+Hero Section
+
+============
+============
+*/
+
+body {
+    scroll-behavior: smooth;
+}
+
+.background {
+    background-color: #132436;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-image: url('../Images/Frame\ 11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 125%;
+    background-size: 70% 430px;
+}
+
+
+header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 17px 25px;
+    border-radius: 22px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 8rem;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.header-left img {
+    width: 40px;
+    height: 42.68px;
+}
+
+.header-left h1 {
+    font-family: "Aeonik Pro TRIAL";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000000;
+    padding-top: 4px;
+}
+
+.header-right a {
+    text-decoration: none;
+}
+
+.header-right button {
+    padding: 12px 30px;
+    border: none;
+    background-color: #132436;
+    border-radius: 10px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 13px;
+}
+
+.header-right button:hover {
+    background-color: #001F3F;
+}
+
+.header-right button span {
+    text-decoration: none;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header-right button img {
+    padding-bottom: 4px;
+    height: 18px;
+}
+
+.textArea {
+    width: 80%;
+    margin: auto;
+    padding-top: 5.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.textArea .btn-1 {
+    width: 281.34px;
+    height: 32px;
+    padding: 4px, 17.34px, 4px, 11px;
+    border-radius: 32px;
+    background: linear-gradient(90deg, rgba(229, 156, 255, 0.24) 0.01%, rgba(186, 156, 255, 0.24) 50.01%, rgba(156, 178, 255, 0.24) 100%);
+    border: none;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ABABAB;
+}
+
+.parent-title {
+    padding-top: 1rem;
+    line-height: 0 !important;
+    margin: 0;
+}
+
+.parent-title h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ABABAB;
+}
+
+.parent-title h1 span {
+    color: #3E4EDA;
+}
+
+.parent-text {
+    padding: 1rem 13rem;
+}
+
+.parent-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #ABABAB;
+    text-align: center;
+}
+
+.textArea .btn-2 {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 40px;
+    background: #E9EBED;
+    gap: 13px;
+}
+
+.textArea .btn-2 span {
+    font-family: 'Inter', sans-serif, 300;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #001F3F;
+}
+
+/* 
+=============
+=============
+
+Hero Section
+
+============
+============
+*/
+
+
+/* 
+=============
+=============
+
+Section one
+
+============
+============
+*/
+
+.con {
+    width: 100%;
+    padding: 4rem 1rem;
+    z-index: -1;
+}
+
+.con-child {
+    width: 80%;
+    margin: auto;
+    background-color: #FBFBFB;
+    padding-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.con-child .top-text {
+    text-align: center;
+    padding: 0 9rem;
+    padding-bottom: 2rem;
+}
+
+.con-child .top-text h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1F2937;
+}
+
+.con-child .top-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #616161;
+}
+
+.con .con-child #fle {
+    margin-bottom: 4rem !important;
+}
+
+.con .con-child .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.con .con-child .flex .flex-text h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.con .con-child .flex .flex-text p {
+    font-family: Aeonik TRIAL;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.con .con-child .flex .flex-text button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+.con .con-child .flex .flex-text button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.con .con-child .flex .flex-text img {
+    height: 100px;
+}
+
+
+/* 
+=============
+=============
+
+Section one
+
+============
+============
+*/
+
+
+
+/* 
+=============
+=============
+
+Section two
+
+============
+============
+*/
+
+.text-bg {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: #0E2843;
+}
+
+.text-bg h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-bg p {
+    font-family: Aeonik TRIAL;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ABABAB;
+    padding: 1rem 23rem;
+}
+
+.text-bg .btnss {
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.text-bg .btnss button:nth-child(1) {
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F7F8F8;
+    background-color: #344570;
+    transition: transform 0.2s ease-in-out;
+}
+
+.text-bg .btnss button:nth-child(1):hover {
+    transform: scale(1.1);
+}
+
+.text-bg .btnss button:nth-child(2) {
+    padding: 10px 20px;
+    border: 1px solid #344570;
+    border-radius: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F7F8F8;
+    background-color: transparent;
+}
+
+.text-bg .btnss button:nth-child(2):hover {
+    background-color: #000000;
+}
+
+/* 
+=============
+=============
+
+Section two
+
+============
+============
+*/
+
+
+
+
+/* 
+=============
+=============
+
+footer
+
+============
+============
+*/
+
+footer {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+footer .footer-div {
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+footer .footer-div .footer-flex {
+    border-top: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    gap: 3rem;
+}
+
+footer .footer-div .footer-flex .footer-text {
+    width: 50%;
+}
+
+footer .footer-div .footer-flex .footer-text h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4C5871;
+}
+
+footer .footer-div .footer-flex .footer-text p {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #374151ad;
+}
+
+
+footer .footer-div .footer-flex .sucribe {
+    width: 50%;
+}
+
+.sucribe {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sucribe input {
+    padding: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    color: #344570;
+    outline: none;
+}
+
+.inp {
+    width: 80%;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: #4c5871a9;
+}
+
+.inp input:focus {
+    outline: 1px solid #344570;
+}
+
+.inp input:focus+.icon {
+    filter: brightness(3);
+}
+
+.sucribe button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F7F8F8;
+    background-color: #001F3F;
+    transition: transform 0.2s ease-in-out;
+}
+
+footer .footer-div .footer-second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    gap: 3rem;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.footer-left img {
+    width: 40px;
+    height: 42.68px;
+}
+
+.footer-left h1 {
+    font-family: "Aeonik Pro TRIAL";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000000;
+    padding-top: 4px;
+}
+
+.footer-right {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9CA3AF;
+}
+
+/* 
+=============
+=============
+
+footer
+
+============
+============
+*/
+
+
+
+/* 
+=============
+=============
+
+Media Query
+
+============
+============
+*/
+@media (max-width:1200px) {
+    .textArea {
+        background-image: none;
+        width: 90%;
+        margin: auto;
+        padding-top: 5.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .background {
+        background-color: #132436;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        background-image: url('../Images/Frame\ 11.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 130%;
+        background-size: 90% 430px;
+    }
+
+    .parent-title h1 {
+        font-size: 45px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-text {
+        padding: 1rem 10rem;
+    }
+
+    .parent-text p {
+        font-size: 16px;
+    }
+
+    .con-child .top-text {
+        text-align: center;
+        padding: 0 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .con-child {
+        width: 90%;
+    }
+
+    .con-child .top-text h1 {
+        font-size: 35px;
+    }
+
+    .con-child .top-text p {
+        font-size: 15px;
+    }
+
+    .con .con-child .flex .flex-text h1 {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .con .con-child .flex .flex-text p {
+        font-size: 18px;
+    }
+
+    .con .con-child .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 6rem;
+    }
+
+    .text-bg p {
+        padding: 1rem 15rem;
+    }
+
+    footer .footer-div {
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width:1000px) {
+
+    #fle {
+        flex-direction: column-reverse;
+    }
+
+    .con .con-child .flex {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .con .con-child .flex .flex-text {
+        margin-bottom: 20px;
+    }
+
+    .con .con-child .flex img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 4rem;
+    }
+
+    .text-bg h1 {
+        font-size: 51px;
+    }
+
+    .text-bg p {
+        padding: 1rem 10rem;
+    }
+
+    footer .footer-div {
+        width: 95%;
+        margin: auto;
+        padding: 1rem 0;
+    }
+
+    footer .footer-div .footer-flex {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    footer .footer-div .footer-flex .footer-text {
+        width: 50%;
+    }
+
+    footer .footer-div .footer-flex .footer-text h1 {
+        font-family: Aeonik Pro TRIAL;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #4C5871;
+    }
+
+    footer .footer-div .footer-flex .footer-text p {
+        font-family: Aeonik Pro TRIAL;
+        font-size: 13px;
+    }
+
+    .sucribe {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .background {
+        background-color: #132436;
+        padding-top: 25px;
+        background-image: url('../Images/Frame\ 11.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 120%;
+        background-size: 90% 350px;
+    }
+
+    header {
+        width: 90%;
+        padding: 14px 20px;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .header-left img {
+        width: 20px;
+        height: 22.68px;
+    }
+
+    .header-left h1 {
+        font-family: "Aeonik Pro TRIAL";
+        font-size: 16px;
+        padding-top: 7px;
+    }
+
+    .header-right button {
+        padding: 10px 15px;
+        gap: 11px;
+    }
+
+    .header-right button a {
+        font-size: 10px;
+    }
+
+    .header-right button img {
+        padding-bottom: 4px;
+        height: 14px;
+    }
+
+    .textArea {
+        background-image: none;
+        width: 100%;
+        margin: auto;
+        padding-top: 5.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .parent-title h1 {
+        font-size: 30px !important;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .parent-text {
+        padding: 1rem 2rem;
+    }
+
+    .parent-text p {
+        font-size: 12px;
+    }
+
+    .text-bg h1 {
+        font-size: 41px;
+    }
+
+    .text-bg p {
+        padding: 1rem 5rem;
+    }
+
+    .con .con-child #fle {
+        margin-bottom: 1rem !important;
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (max-width:698px) {
+    .textArea {
+        background-image: none;
+        width: 100%;
+        margin: auto;
+        padding-top: 5.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .parent-title h1 {
+        font-size: 30px !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-text {
+        padding: 1rem 2rem;
+    }
+
+    .parent-text p {
+        font-size: 12px;
+    }
+
+    .con {
+        width: 100%;
+        padding: 2.5rem 1rem;
+    }
+
+    .con-child .top-text {
+        text-align: center;
+        padding: 0 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .con-child {
+        width: 100%;
+    }
+
+    .con-child .top-text h1 {
+        font-size: 25px;
+    }
+
+    .con-child .top-text p {
+        font-size: 13px;
+    }
+
+    .con .con-child .flex img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .text-bg h1 {
+        font-size: 31px;
+    }
+
+    .text-bg p {
+        padding: 1rem;
+    }
+
+    .text-bg {
+        text-align: center;
+        padding: 5rem 0.5em;
+        background: #0E2843;
+    }
+
+    footer .footer-div .footer-flex {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer .footer-div .footer-flex .footer-text {
+        width: 100%;
+    }
+
+    footer .footer-div .footer-flex .sucribe {
+        width: 100%;
+    }
+
+    footer .footer-div .footer-second {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .footer-left {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .footer-left img {
+        width: 40px;
+        height: 42.68px;
+    }
+
+    .footer-left h1 {
+        font-size: 21px;
+    }
+
+    .footer-right {
+        font-size: 14px;
+    }
+
+    footer .footer-div .footer-second {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 0.5rem;
+        gap: 1rem;
+    }
+
+    .con .con-child #fle {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .background {
+        background-color: #132436;
+        padding-top: 25px;
+        background-image: url('../Images/Frame\ 11.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 80%;
+        background-size: 100% 290px;
+    }
+}
+
+@media (max-width:497px) {
+    .textArea {
+        background-image: none;
+        width: 100%;
+        margin: auto;
+        padding-top: 3.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .parent-title h1 {
+        font-size: 25px !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .parent-text {
+        padding: 1rem;
+    }
+
+    .parent-text p {
+        font-size: 10px;
+    }
+
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 1.3rem;
+    }
+
+    .text-bg h1 {
+        font-size: 25px;
+    }
+
+    .text-bg p {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .background {
+        background-color: #132436;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        background-image: url('../Images/Frame\ 11.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 65%;
+        background-size: 100% 200px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .background {
+        background-color: #132436;
+        padding-top: 25px;
+    }
+
+    header {
+        width: 95%;
+        padding: 14px 20px;
+    }
+
+    .header-right button {
+        padding: 8px 12px;
+        gap: 9px;
+    }
+
+    .parent-title h1 {
+        font-size: 20px !important;
+    }
+
+    .parent-text {
+        padding: 1rem;
+    }
+
+    .parent-text p {
+        font-size: 9px;
+    }
+
+    .con-child .top-text h1 {
+        font-size: 20px;
+    }
+
+    .con-child .top-text p {
+        font-size: 12px;
+    }
+
+    .con .con-child .flex .flex-text h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .con .con-child .flex .flex-text p {
+        font-size: 18px;
+    }
+
+    .con .con-child .flex img:nth-child(1) {
+        margin-bottom: 10px;
+    }
+
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 0.5rem;
+    }
+
+    .text-bg .btnss button:nth-child(1) {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+    .text-bg .btnss button:nth-child(2) {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+}
+
+/* 
+=============
+=============
+
+Media Query
+
+============
+============
+*/

@@ -1,0 +1,390 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+=============
+=============
+
+Sop Section
+
+============
+============
+*/
+
+body {
+    background: #F0EEEB;
+}
+
+.cont {
+    width: 100%;
+}
+
+.con-sop {
+    width: 85%;
+    margin: 2rem auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.con-sop-child {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    width: 65%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.con-logo {
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: 25%;
+}
+
+.con-logo-child {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.2;
+    padding: 40px 30px;
+}
+
+.con-logo-child img {
+    width: 40px;
+    padding-bottom: 10px;
+    height: 40px;
+}
+
+.con-logo-child p {
+    font-family: "Aeonik Pro TRIAL";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000000;
+    padding-top: 4px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-top {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.grid-top h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-align: start;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.grid-top h1 img {
+    width: 24px;
+    height: 24px
+}
+
+.grid-top p {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0000009f;
+}
+
+.grid-middle {
+    margin-top: 1rem;
+}
+
+.grid-middle {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.grid-middle h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-align: start;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.details-section {
+    margin-bottom: 30px;
+}
+
+.details-label,
+.about-label {
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    color: #050607bd;
+}
+
+textarea,
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #344570;
+    outline: none;
+    margin-bottom: 8px;
+    background-color: #b3d4e034;
+}
+
+textarea {
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.details-textarea p,
+.about-input p {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #001f3f88;
+}
+
+.grid-bottom {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.grid-bottom button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F7F8F8;
+    background-color: #001f3f50;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: end;
+}
+
+.grid-bottom img {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(32deg);
+}
+
+.state {
+    width: 40%;
+}
+
+.statement-div {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    height: 557px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.statement h1 {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.statement p {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0000009f;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: none;
+}
+
+.icons button:nth-child(1) {
+    background-color: white;
+    border: 1px solid #001f3f;
+    color: #001f3f;
+}
+
+.icons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F7F8F8;
+    background-color: #001f3f;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: end;
+}
+
+/* 
+=============
+=============
+
+Sop Section
+
+============
+============
+*/
+
+
+@media (max-width:1200px) {
+    .con-sop {
+        width: 95%;
+        gap: 1.5rem;
+    }
+
+    .con-sop-child {
+        display: flex;
+        justify-content: start;
+        gap: 1.5rem;
+        width: 65%;
+    }
+}
+
+@media (max-width:1000px) {
+    .con-sop {
+        width: 95%;
+        align-self: flex-start;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+
+    .con-sop-child {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .state {
+        width: 100%;
+    }
+
+    .statement-div {
+        background-color: #FFFFFF;
+        border-radius: 12px;
+        padding: 10px;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .con-logo {
+        height: 10%;
+    }
+
+    .con-logo-child {
+        padding: 10px;
+    }
+
+    .con-logo-child img {
+        width: 30px;
+        padding-bottom: 10px;
+        height: 40px;
+    }
+
+    .con-logo-child p {
+        font-family: "Aeonik Pro TRIAL";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 0;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #000000;
+        padding-top: 4px;
+    }
+
+    .statement-div {
+        height: 200px;
+    }
+
+}
+
+@media (max-width:500px) {
+    label {
+        font-size: 10px;
+    }
+
+    .icons button {
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        font-family: Aeonik Pro TRIAL;
+        font-size: 10px;
+    }
+
+    .statement-div {
+        height: 150px;
+    }
+}
